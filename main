@@ -1,0 +1,17 @@
+    public static void main(String[] args) {
+/*
+        greeting greet10 = (name) -> System.out.println("hello " + name);
+        greet10.sayhello32("Alice");
+        greet10.sayhello32("bob");
+
+        System.out.println("--------------------");
+
+        greeting inGerman10 = (name) -> System.out.println("Hallo " + name);
+        inGerman10.sayhello32("Frank");
+        inGerman10.sayhello32("Ann");
+*/
+        multiOperation operation33 = new multiOperationImpl();
+        operation33.perforFirstOperation(5);
+        operation33.perforSecondOperation(3);
+    }
+}
