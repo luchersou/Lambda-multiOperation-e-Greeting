@@ -1,0 +1,12 @@
+public class multiOperationImpl implements multiOperation{
+// É obrigatorio colocar as sub classes abaixo porque se trata de um implement
+    @Override
+    public void perforFirstOperation(int a) {
+        System.out.println("First operation: " + (a*a));
+    }
+
+    @Override
+    public void perforSecondOperation(int b) {
+        System.out.println("Second operation: " + (b*b));
+    }
+}
