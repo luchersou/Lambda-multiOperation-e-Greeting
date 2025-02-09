@@ -1,0 +1,4 @@
+public interface multiOperation {
+    void perforFirstOperation(int a);
+    void perforSecondOperation(int b);
+}
