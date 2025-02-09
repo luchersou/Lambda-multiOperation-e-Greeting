@@ -1,0 +1,3 @@
+public interface greeting {
+    void sayhello32(String Name);
+}
